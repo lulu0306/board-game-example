@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Map game</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale= 1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- codigo para poder implemntar los botones de redes sociales-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+    <div class="header">
+       <h2 class="here"><strong>WELCOME TO THE PETS BOARD GAME</strong></h2>
+      <img src="https://previews.123rf.com/images/mumut/mumut1612/mumut161200009/69253080-cartoon-dog-cat-for-frame-border-element.jpg" class="logo">
+    </div>
+  </header>
+  <div class="container">
+    <!---<div class="player-container active" id="player-1">
+      <div class="player">
+        <h2 class="name-1">Player 1</h2>
+        <div class="player-img"><img src="img/player1.jpg" ></div>
+      </div>
+      <p id="score1">Points:</p>
+      <p>Weapon:</p>
+    </div>-->
+    <section id="intro">
+     <h3 class="main-title">Cats vs Dogs Epic Game!</h3> 
+     <h5 style="color: black;">Game Rules:</h5>
+     <ol>
+       <li>Each player have three turns they can move vertically or horizontally</li>
+       <li>to atack they need to grab a weapon each weapon have a different attack score</li>
+       <li>your actual score is from 100 points </li>
+       <li>each of the next fruits have different values try to get the highest one:</li>
+     </ol>
+     <div class="weapons">
+       <figure>
+         <img src="img/weap1.png">
+         <p>40</p>
+       </figure>
+       <figure>
+         <img src="img/weap2.png">
+         <p>30</p>
+       </figure>
+       <figure>
+         <img src="img/weap3.png">
+         <p>20</p>
+       </figure>
+       <figure>
+         <img src="img/weap4.jpg">
+         <p>10</p>
+       </figure>
+     </div>
+     <ol>
+       <li>Good luck!</li>
+     </ol>
+     <button id="start-button" onclick="startGame(this)">START</button>
+    </section>
+    <div class="wrapper" id="wrapper" style="display: none;" ></div>
+    <button onclick="up()" >Up</button>
+    <button onclick="down()" >Down</button>
+    <button onclick="right()" >Right</button>
+    <button onclick="left()" >Left</button>
+    <button onclick="changePlayer()">change</button>
+    
+    <!---<div class="player-container" id="player-2">
+      <div class="player">
+        <h2 class="name-2">Player 2</h2>
+        <div class="player-img">
+          <img src="img/player2.jpg">
+        </div>
+        <p id="score2">Points:</p>
+        <p>Weapon:</p>
+      </div>
+    </div>--->
+    <div class="game-over"></div>
+  </div>
+  <script src="js/variables.js"></script>
+  <script src="js/function.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

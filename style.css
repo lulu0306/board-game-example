@@ -1,0 +1,190 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  /*margin: 40px;*/
+background-image: url(https://i.pinimg.com/originals/67/5b/72/675b721f97919575cd7c07f97d48cd7f.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+ 
+}
+
+
+
+
+
+.wrapper{
+display: grid;
+grid-template-columns:  60px   60px  60px  60px  60px  60px  60px  60px  60px   60px ;
+opacity: 1.0;
+}
+
+.box{
+
+  background-color: #444;
+  color: #fff;
+  padding: 20px;
+}
+
+
+
+
+
+.grass{
+  background-image: url(img/grass1.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+.rock{
+  background-image: url(img/rock1.gif);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.player1{
+  background-image: url(img/player1.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.player2{
+  background-image: url(img/player2.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.weapon1{
+  background-image: url(img/weap1.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.weapon2{
+  background-image: url(img/weap2.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.weapon3{
+  background-image: url(img/weap3.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+.weapon4{
+   background-image: url(img/weap4.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.logo{
+  width: 70px;
+}
+
+
+.here{
+  margin-right:4rem;
+  padding-top: 0px;
+  float: right;
+   color: #ffff;
+}
+
+.header{
+  background-color: #FF8C00 ;
+   
+}
+
+.main-title{
+  margin-bottom: 25px;
+  color: black;
+}
+
+#intro{
+    width: 80%;
+    height: 90%;
+    background-color: #eae5e5;
+    opacity: 0.8; 
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+ol li {
+    list-style-type: circle;
+    margin-left: 10px;
+}
+
+.weapons{
+  display: inline-flex;
+  background-color: white;
+  margin:15px;
+  padding: 15px;
+}
+
+figure img {
+    max-height: 7rem;
+    max-height: 7rem;
+    border-radius: 0.5rem;
+
+}
+
+figure  p{
+  text-align: center;
+}
+
+#start-button{
+   width: 200px;
+    height: 50px;
+    background-color: #FFA500;
+    cursor: pointer;
+    margin-left: 45%;
+
+}
+
+/*.player-container {   
+    background-color: white;
+    text-align: center;
+    flex-direction: column;
+    min-height: 450px;
+    min-width: 150px;
+    max-width: 150px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: solid 2px black;
+    margin-top: 30px;
+    display: none;
+}*/
+
+
+.player-container .player-container {
+    margin: 0 auto;
+}
+
+
+.player-img  img{
+  width: 100px;
+}
+
+
